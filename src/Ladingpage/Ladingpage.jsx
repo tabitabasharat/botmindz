@@ -402,7 +402,7 @@ function Ladingpage() {
                 Be Well Stay Calm And <span> Keep In Touch</span>
               </h4>
               <div className="info-main-box">
-                <Row>
+                <Row className="input-row">
                   <Col className="input-stlying">
                     <input type="text" placeholder="First Name" />
                   </Col>
@@ -410,7 +410,7 @@ function Ladingpage() {
                     <input type="text" placeholder="Last Name" />
                   </Col>
                 </Row>
-                <Row>
+                <Row className="input-row">
                   <Col className="input-stlying">
                     <input type="text" placeholder="Email" />
                   </Col>

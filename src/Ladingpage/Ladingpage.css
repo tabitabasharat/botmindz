@@ -410,11 +410,11 @@
   color: white;
   margin: 0px;
 }
-.artifiial-cont{
+.artifiial-cont {
   background-color: #040317;
 }
 .about-end-cont {
-  background-color: #FFFFFF0D  ;
+  background-color: #ffffff0d;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -714,7 +714,7 @@
   border-bottom: 1px solid #ffffff33;
   margin-bottom: 25px;
 }
-.footer-end{
+.footer-end {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -766,6 +766,9 @@
 }
 .team-card-stying img {
   margin-bottom: 53.55px;
+}
+.navbar-toggler {
+  background-color: white !important;
 }
 @media (max-width: 1024px) {
   .card-likes-row {
@@ -838,7 +841,7 @@
     display: flex;
     flex-direction: column;
   }
-  .copy-right{
+  .copy-right {
     margin-top: 10px;
   }
   .about-end-cont {
@@ -853,7 +856,7 @@
   .main-landing-page {
     padding: 88px 70.38px 160px 70.5px;
   }
-  .footer-end{
+  .footer-end {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -867,7 +870,7 @@
   .mail-div {
     width: 100% !important;
   }
-  .ul-li-stlying ul{
+  .ul-li-stlying ul {
     display: flex;
     flex-direction: column;
   }
@@ -883,7 +886,7 @@
     align-items: center;
     flex-direction: column;
   }
-  .footer{
+  .footer {
     padding: 140px 75px 62.55px 75px;
   }
   .news-letter-col-rhs {
@@ -894,10 +897,14 @@
   .navbar-expand-lg {
     padding: 42px 35px !important;
   }
+  .main-landing-page {
+    gap: 100px;
+    display: flex;
+  }
   .team-main-div {
     padding: 160px 35px 160px 35px;
   }
-  .footer{
+  .footer {
     padding: 140px 35px 62.55px 35px;
   }
   .main-landing-page {
@@ -907,7 +914,7 @@
     font-family: Poppins;
     font-size: 40px;
     font-weight: 600;
-    line-height: 55px;
+    line-height: 50px;
     text-align: justified;
     color: white;
   }
@@ -918,7 +925,7 @@
     font-family: Poppins;
     font-size: 40px;
     font-weight: 600;
-    line-height: 55px;
+    line-height: 50px;
     text-align: left;
     color: white;
     margin: 15px 0px 25px !important;
@@ -927,10 +934,23 @@
     font-family: Poppins;
     font-size: 40px;
     font-weight: 600;
-    line-height: 55px;
+    line-height: 50px;
     text-align: start;
     color: white;
     margin: 15px 0px 75px;
+  }
+  .main-LHS-div h3 span {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: justified;
+    color: #00f3b6;
+  }
+  .main-LHS-div h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
   }
   .bout-row {
     padding: 160.74px 35px 160px 35px;
@@ -944,20 +964,36 @@
   .robo-1234 img {
     width: 100% !important;
   }
+  .info-main-box {
+    height: auto;
+  }
+  .input-row {
+    display: flex;
+    flex-direction: column;
+  }
   .ai-text h3 {
     font-family: Poppins;
     font-size: 40px;
     font-weight: 600;
-    line-height: 55px;
+    line-height: 50px;
     text-align: left;
     margin-bottom: 25px;
     color: white;
   }
-  .team-main-div h2 {
-    font-family: Poppins;
+  .services h2 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .services h2 span {
     font-size: 40px;
     font-weight: 600;
     line-height: 55px;
+  }
+  .team-main-div h2 {
+    font-family: Poppin-info-main-boxs;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
     text-align: left;
     color: white;
     margin-bottom: 15px;
@@ -996,9 +1032,9 @@
   }
   .main-LHS-div h3 span {
     font-family: Poppins;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
-    line-height: 75px;
+    line-height: 50px;
     text-align: justified;
     color: #00f3b6;
   }
@@ -1006,15 +1042,20 @@
     padding: 129px 24px 128px 24px !important;
   }
   .main-LHS-div h3 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
-    line-height: 75px;
+    line-height: 50px;
   }
   .services h2 {
     font-size: 50px;
-    line-height: 75px;
+    line-height: 50px;
   }
-  .footer{
+  .services h2 span {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 55px;
+  }
+  .footer {
     padding: 140px 24px 62.55px 24px;
   }
 }
